@@ -1,0 +1,10 @@
+[project]
+name = "uptime-bot"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "aiogram>=3.28.2",
+    "aiogram-i18n>=1.5",
+    "pydantic-settings>=2.14.1",
+    "redis>=8.0.0",
+]
